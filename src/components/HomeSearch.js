@@ -16,9 +16,10 @@ class HomeSearch extends Component {
 	render() {
 		return (
 			<div className="home-search">
-				<div className="home-search-header">
-					This will contain duplicate info as the header.
-				</div>
+				<ul className="home-search-header">
+					<li>New Listings</li>
+					<li>Loans</li>
+				</ul>
 				<form onSubmit={this.handleSearchSubmit}>
 					<input
 						type="text"
@@ -26,8 +27,9 @@ class HomeSearch extends Component {
 						placeholder="Search listings by city, neighborhood, or zip code"
 						onChange={this.handleSearchChange}
 						value={this.state.searchQuery}
+						className="landing-page-search-input"
 					/>
-					<input type="submit" />
+					<input type="submit" className="landing-page-search-submit-btn" />
 				</form>
 			</div>
 		);

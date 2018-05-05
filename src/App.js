@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 
+// Styles
+import "./App.css";
+
 // Containers
 import LandingPage from "./containers/LandingPage";
 import PropertySearchView from "./containers/PropertySearchView";
