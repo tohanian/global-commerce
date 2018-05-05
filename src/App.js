@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 
 // Containers
-import LandingPage from "./containers/Home";
+import LandingPage from "./containers/LandingPage";
 import PropertySearchView from "./containers/PropertySearchView";
 import Header from "./containers/Header";
 
