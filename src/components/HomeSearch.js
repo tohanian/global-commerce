@@ -1,10 +1,21 @@
 import React, { Component } from "react";
 
+// Resources
+import photo from "../img/landing-page/landing-page-search-photo-1.jpg";
+
 class HomeSearch extends Component {
 	state = {
 		searchQuery: ""
 	};
 
+	// Styles
+	homeSearchStyle = {
+		backgroundImage: `url("${photo}")`,
+		backgroundSize: "cover",
+		height: "100vh"
+	};
+
+	// Event Handlers
 	handleSearchChange = e => this.setState({ searchQuery: e.target.value });
 
 	handleSearchSubmit = e => {
@@ -15,7 +26,7 @@ class HomeSearch extends Component {
 
 	render() {
 		return (
-			<div className="home-search">
+			<div className="home-search" style={this.homeSearchStyle}>
 				<ul className="home-search-header">
 					<li>New Listings</li>
 					<li>Loans</li>
