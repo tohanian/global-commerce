@@ -1,5 +1,73 @@
 * {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px; }
 
 p {
   font-family: "Lato"; }
+
+.home-search {
+  text-align: center; }
+  .home-search > * {
+    position: relative;
+    z-index: 1;
+    max-width: 850px;
+    margin: 0 auto; }
+  .home-search .home-search-transparent-layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none; }
+  .home-search .home-search-header {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end; }
+    .home-search .home-search-header li {
+      margin: 15px 10px;
+      padding: 5px 10px;
+      color: white; }
+      .home-search .home-search-header li:last-of-type {
+        border: 1px solid white;
+        border-radius: 3px; }
+  .home-search .home-search-text {
+    color: white;
+    margin-top: 30vh;
+    margin-bottom: 3vh; }
+    .home-search .home-search-text .home-search-title {
+      font-size: 2.2em;
+      padding-bottom: 5px; }
+    .home-search .home-search-text .home-search-subtitle {
+      font-weight: 300;
+      font-size: 1.3em; }
+  .home-search .home-search-input {
+    width: 80%;
+    height: 30px;
+    font-size: 1.6em;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white; }
+    .home-search .home-search-input:focus {
+      outline: none; }
+    .home-search .home-search-input::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: darkgrey;
+      opacity: 1;
+      /* Firefox */ }
+    .home-search .home-search-input:-ms-input-placeholder, .home-search .home-search-input::-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: darkgrey; }
+  .home-search .home-search-input-container {
+    display: flex; }
+    .home-search .home-search-input-container .button {
+      background-color: #6edeae;
+      color: white;
+      font-size: 1em;
+      font-weight: 700;
+      padding: 0 20px;
+      border: none;
+      border-radius: 0 5px 5px 0; }
