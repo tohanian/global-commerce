@@ -2,6 +2,27 @@
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px; }
 
+html {
+  background-color: #f4f3f1; }
+
+.landing-page-component {
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 85px; }
+  .landing-page-component h3 {
+    text-transform: uppercase;
+    padding: 80px 0 8px 0;
+    font-size: 0.9em;
+    color: #5f6679;
+    text-align: center; }
+  .landing-page-component .heading-underline {
+    height: 3px;
+    width: 40px;
+    background-color: #dbdbdb;
+    margin: 0 auto;
+    margin-bottom: 62px; }
+
 p {
   font-family: "Lato"; }
 
@@ -71,3 +92,55 @@ p {
       padding: 0 20px;
       border: none;
       border-radius: 0 5px 5px 0; }
+
+.how-it-works .list-number {
+  color: #5f6679; }
+
+.how-it-works > ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center; }
+  .how-it-works > ul > li {
+    margin: 0 10px;
+    width: 30%; }
+    .how-it-works > ul > li .list-number {
+      padding: 12px;
+      border-radius: 28px;
+      border: 1px solid #dbdbdb;
+      width: 20px;
+      margin: 0 auto 30px auto; }
+    .how-it-works > ul > li .how-it-works-icon {
+      margin-bottom: 30px; }
+    .how-it-works > ul > li .how-it-works-content > h4 {
+      padding-bottom: 10px; }
+    .how-it-works > ul > li .how-it-works-content > p {
+      color: #9a9eaa;
+      font-size: 0.92em; }
+
+.why-choose-us > ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .why-choose-us > ul > li {
+    margin: 0 10px;
+    width: 45%;
+    display: flex;
+    padding-bottom: 50px; }
+    .why-choose-us > ul > li .list-number {
+      padding: 12px;
+      border-radius: 28px;
+      border: 1px solid #dbdbdb;
+      width: 20px;
+      margin: 0 auto 30px auto; }
+    .why-choose-us > ul > li .why-choose-us-icon {
+      margin-bottom: 30px;
+      width: 40%;
+      padding-top: 5%; }
+    .why-choose-us > ul > li .why-choose-us-content > h4 {
+      padding-bottom: 10px; }
+    .why-choose-us > ul > li .why-choose-us-content > p {
+      color: #9a9eaa;
+      font-size: 0.92em; }
