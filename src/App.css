@@ -1,9 +1,24 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px; }
 
 html {
   background-color: #f4f3f1; }
+
+nav {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  height: 40px;
+  background: #f4f3f1;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdbdb; }
+  nav .nav-menu {
+    list-style-type: none;
+    display: flex; }
+    nav .nav-menu li {
+      padding: 0 10px; }
 
 .landing-page-component {
   max-width: 800px;
@@ -24,7 +39,7 @@ html {
     margin-bottom: 62px; }
 
 p {
-  font-family: "Lato"; }
+  font-family: 'Lato'; }
 
 .home-search {
   text-align: center; }
